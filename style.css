@@ -1,0 +1,813 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Start */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(57, 57, 57);
+    height: 40px;
+    width: 100%;
+}
+
+.navbar>.navlist {
+    display: flex;
+}
+
+.navlist>li {
+    margin-left: 25px;
+    list-style: none;
+}
+
+.navlist>li>a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.navlist>.hide>i{
+    visibility: hidden;
+
+}
+/* Navbar End */
+
+/* Section 1 Start */
+.section1 {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-image: url(./Images/hero_iphone_family_a__c7v3mvx3jv42_large.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.section1content {
+    width: 340px;
+    /* border: 2px solid red; */
+    margin-top: 20px;
+}
+
+.section1content>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    line-height: 1.5em;
+}
+
+.section1content>p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.3em;
+}
+
+.section1button {
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+.section1button>.section1button1 {
+    padding: 10px;
+    background-color: rgb(83, 83, 247);
+    border-color: rgb(83, 83, 247);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section1button>.section1button2 {
+    padding: 10px;
+    color: rgb(83, 83, 247);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(83, 83, 247);
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section1button>.section1button2:hover {
+    padding: 10px;
+    background-color: rgb(83, 83, 247);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Section 1 End */
+
+/* Section 2 Start */
+.section2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-image: url(./Images/hero_ipadpro__bpt7a9d8sh42_large.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.section2content {
+    width: 370px;
+    /* border: 2px solid red; */
+    margin-top: 20px;
+}
+
+.section2content>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    line-height: 1.5em;
+}
+
+.section2content>p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.3em;
+}
+
+.section2button {
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+.section2button>.section2button1 {
+    padding: 10px;
+    background-color: rgb(83, 83, 247);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section2button>.section2button2 {
+    padding: 10px 40px;
+    color: rgb(83, 83, 247);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(83, 83, 247);
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section2button>.section2button2:hover {
+    padding: 10px 40px;
+    background-color: rgb(83, 83, 247);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Section 2 End */
+
+/* Section 3 Start */
+.section3 {
+    /* border: 2px solid red; */
+    display: flex;
+    height: 500px;
+    margin-top: 10px;
+    background-image: url(./Images/apple....png);
+    background-size: 35%;
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: fit-content; */
+}
+
+/* Section 3 End */
+
+/* Section 4,5 Start */
+.section4main {
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.section4 {
+    /* border: 2px solid red; */
+    height: 500px;
+    margin-left: 10px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-image: url(./Images/hero_iphone_family_a__c7v3mvx3jv42_large.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.section5 {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 5px;
+    height: 500px;
+    width: 50%;
+    background-color: whitesmoke;
+    background-image: url(https://developer.apple.com/apple-intelligence/images/hero_2x.png);
+    background-size: 85%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.section5content {
+    width: 400px;
+    /* border: 2px solid red; */
+    margin-top: 20px;
+}
+
+.section5content>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 45px;
+    line-height: 1.5em;
+}
+
+.section5content>p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.6em;
+}
+
+.section5content>.section5contentp2 {
+    font-size: 19px;
+    color: gray;
+}
+
+.section5button {
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+.section5button>.section5button1 {
+    padding: 10px 15px;
+    background-color: rgb(83, 83, 247);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section5button>.section5button2 {
+    padding: 8px 15px;
+    color: rgb(83, 83, 247);
+    background-color: inherit;
+    border-color: rgb(83, 83, 247);
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section5button>.section5button2:hover {
+    padding: 8px 15px;
+    background-color: rgb(83, 83, 247);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Section 4,5 End */
+
+/* Section 6,7 Start */
+.section6main {
+    height: 500px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.section6 {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 5px;
+    background-color: rgb(0, 0, 0);
+    background-image: url(https://www.apple.com/v/ipad-pro/aq/images/overview/contrast/product-tile/ipad_pro__ea93uc0cnvsm_medium.jpg);
+    background-size: 40%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.section6content {
+    width: 400px;
+    margin-top: 20px;
+}
+
+.section6content>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 45px;
+    line-height: 1.5em;
+}
+
+.section6content>p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.6em;
+}
+
+.section6button {
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+.section6button>.section6button1 {
+    padding: 10px 15px;
+    background-color: rgb(83, 83, 247);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section6button>.section6button2 {
+    padding: 8px 40px;
+    color: rgb(83, 83, 247);
+    background-color: inherit;
+    border-color: rgb(83, 83, 247);
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section6button>.section6button2:hover {
+    padding: 8px 40px;
+    background-color: rgb(83, 83, 247);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section7 {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 50%;
+    margin-left: 5px;
+    margin-right: 10px;
+    background-color: rgb(0, 0, 0);
+    background-image: url(https://images.macrumors.com/t/ziml_zmnu_6z6dMcTwguEzhQt_0=/400x0/article-new/2023/09/Apple-Watch-Series-9.jpg?lossy);
+    background-size: 85%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.section7content {
+    width: 400px;
+    margin-top: 20px;
+}
+
+.section7content>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 45px;
+    line-height: 1.5em;
+}
+
+.section7content>.section7contentp2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+.section7content>p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.6em;
+}
+
+.section7button {
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+.section7button>.section7button1 {
+    padding: 10px 15px;
+    background-color: rgb(83, 83, 247);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section7button>.section7button2 {
+    padding: 8px 40px;
+    color: rgb(83, 83, 247);
+    background-color: inherit;
+    border-color: rgb(83, 83, 247);
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section7button>.section7button2:hover {
+    padding: 8px 40px;
+    background-color: rgb(83, 83, 247);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Section 6,7 End */
+
+/* Section 8,9 Start */
+.section8main {
+    height: 500px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.section8 {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 5px;
+    background-color: whitesmoke;
+    background-image: url(https://files.tecnoblog.net/wp-content/uploads/2019/07/apple-card-credit-700x413.jpg);
+    background-size: 60%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.section8content {
+    width: 350px;
+    margin-top: 20px;
+}
+
+.section8content>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 45px;
+    line-height: 1.5em;
+}
+
+.section8content>p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.6em;
+}
+
+.section8button {
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+.section8button>.section8button1 {
+    padding: 10px 15px;
+    background-color: rgb(83, 83, 247);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section8button>.section8button2 {
+    padding: 8px 40px;
+    color: rgb(83, 83, 247);
+    background-color: inherit;
+    border-color: rgb(83, 83, 247);
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section8button>.section8button2:hover {
+    padding: 8px 40px;
+    background-color: rgb(83, 83, 247);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section9 {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 50%;
+    margin-left: 5px;
+    margin-right: 10px;
+    background-color: whitesmoke;
+    background-image: url(https://istyle.ae/media/wysiwyg/AE/landing-pages/business/iphone-trade-in-new-desk.png);
+    background-size: 100%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.section9content {
+    width: 350px;
+    margin-top: 20px;
+}
+
+.section9content>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 45px;
+    line-height: 1.5em;
+}
+
+.section9content>p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 22px;
+    /* line-height: 1.6em; */
+}
+
+.section9button {
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+.section9button>.section9button1 {
+    padding: 10px 15px;
+    background-color: rgb(83, 83, 247);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section9button>.section9button2 {
+    padding: 8px 40px;
+    color: rgb(83, 83, 247);
+    background-color: inherit;
+    border-color: rgb(83, 83, 247);
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section9button>.section9button2:hover {
+    padding: 8px 40px;
+    background-color: rgb(83, 83, 247);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+/* Section 8,9 End */
+
+/* Section 10 Start */
+.section10main {
+    height: 400px;
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.Imageslide {
+    width: 60%;
+    height: 400px;
+    margin-right: 10px;
+}
+
+/* Section 11 Start */
+.section11 {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    /* border: 2px solid red; */
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.section11>p {
+    margin-top: 15px;
+    width: 900px;
+    font-size: 16px;
+    text-align: justify;
+    color: gray;
+}
+
+footer {
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+
+.applefooter>ul>h3 {
+    color: rgb(80, 70, 70);
+    line-height: 2em;
+}
+
+.applefooter>ul>li>a {
+    text-decoration: none;
+    color: grey;
+    line-height: 1.5em;
+}
+
+.applefooter>ul>li {
+    list-style: none;
+}
+/* Section 11 End */
+
+
+
+
+@media only screen and (max-width:480px) {
+
+    .navbar{
+        background-color: gray;
+        display: flex;
+        width: 100%;
+
+    }
+    .navlist>li>a{
+        display: none;
+    }
+    .navlist>.hide>i{
+        visibility: visible;
+    }
+
+    .section1 {
+        display: flex;
+        justify-content: center;
+        height: 500px;
+        width: 100%;
+        background-image: url(./Images/hero_iphone_family_a__c7v3mvx3jv42_large.jpg);
+        background-size: cover;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    
+    .section3 {
+        /* border: 2px solid red; */
+        display: flex;
+        height: 500px;
+        margin-top: 10px;
+        background-image: url(./Images/apple....png);
+        background-size: cover;
+        background-color: whitesmoke;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* height: fit-content; */
+    }
+
+    .section4main {
+        /* border: 2px solid red; */
+        margin-top: 10px;
+        display: block;
+        justify-content: center;
+    }
+
+    .section4 {
+        /* border: 2px solid red; */
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        background-image: url(./Images/hero_iphone_family_a__c7v3mvx3jv42_large.jpg);
+        background-size: cover;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+ 
+    .section5 {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 500px;
+        width: 100%;
+        background-color: whitesmoke;
+        background-image: url(https://developer.apple.com/apple-intelligence/images/hero_2x.png);
+        background-size: 85%;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+
+    .section6main {
+        height: 500px;
+        margin-top: 10px;
+        display: block;
+    }
+    
+    .section6 {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        height: 500px;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        background-image: url(https://www.apple.com/v/ipad-pro/aq/images/overview/contrast/product-tile/ipad_pro__ea93uc0cnvsm_medium.jpg);
+        background-size: 40%;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+    .section7 {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        height: 500px;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        background-image: url(https://images.macrumors.com/t/ziml_zmnu_6z6dMcTwguEzhQt_0=/400x0/article-new/2023/09/Apple-Watch-Series-9.jpg?lossy);
+        background-size: 85%;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+    
+    .section8main {
+        /* border: 2px solid red; */
+        height: 500px;
+        margin-top: 108%;
+        display: block;
+    }
+    .section8 {
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 500px;
+        width: 100%;
+        background-color: whitesmoke;
+        background-image: url(https://files.tecnoblog.net/wp-content/uploads/2019/07/apple-card-credit-700x413.jpg);
+        background-size: 60%;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+    .section9 {
+        display: flex;
+        justify-content: center;
+        height: 500px;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color: whitesmoke;
+        background-image: url(https://istyle.ae/media/wysiwyg/AE/landing-pages/business/iphone-trade-in-new-desk.png);
+        background-size: 100%;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+
+    .section10main {
+        height: 300px;
+        display: flex;
+        justify-content: left;
+        margin-top: 108%;
+    }
+    
+    .Imageslide {
+        width: 100%;
+        height: 400px;
+        margin-right: 10px;
+    }
+
+    .section11 {
+        margin-top: 30px;
+        padding-bottom: 20px;
+        width: 100%;
+        /* border: 2px solid red; */
+        border-bottom: 2px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: whitesmoke;
+    }
+    
+    .section11>p {
+        margin-top: 15px;
+        width: 440px;
+        font-size: 16px;
+        text-align: left;
+        color: gray;
+    }
+    
+}
